@@ -74,6 +74,7 @@
       float: left;
       .button {
         @extend %button;
+      }
     }
     #topic1 {
       color: $class1;
@@ -83,7 +84,6 @@
     }
     #topic3 {
       color: $class3;
-    }
     }
     .right-footer {
       float: right;

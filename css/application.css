@@ -136,12 +136,12 @@ body {
       margin-bottom: 30px; }
     .course-tile .tile-body .left-footer {
       float: left; }
-      .course-tile .tile-body .left-footer #topic1 {
-        color: mediumspringgreen; }
-      .course-tile .tile-body .left-footer #topic2 {
-        color: tomato; }
-      .course-tile .tile-body .left-footer #topic3 {
-        color: steelblue; }
+    .course-tile .tile-body #topic1 {
+      color: mediumspringgreen; }
+    .course-tile .tile-body #topic2 {
+      color: tomato; }
+    .course-tile .tile-body #topic3 {
+      color: steelblue; }
     .course-tile .tile-body .right-footer {
       float: right; }
       .course-tile .tile-body .right-footer .play {
