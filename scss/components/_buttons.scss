@@ -1,0 +1,10 @@
+%button {
+  display: inline-block;
+  border-style: solid;
+  border-width: 2px;
+  border-color: $page-body;
+  border-radius: 30px;
+  padding: 10px;
+  color: $light-text;
+  font-weight: bold;
+}

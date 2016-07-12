@@ -3,5 +3,17 @@
     content: "";
     display: block;
     clear: both;
-  } 
+  }
+}
+
+%dropshadow {
+  box-shadow: 0 7px 6px -6px $shadow;
+}
+
+%top-border {
+  border-radius: 5px 5px 0px 0px;
+}
+
+%bottom-border {
+  border-radius: 0px 0px 5px 5px;
 }

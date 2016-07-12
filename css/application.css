@@ -12,6 +12,16 @@ html body {
 body {
   background-color: #edeff0; }
 
+.course-tile .tile-body .left-footer .button {
+  display: inline-block;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #edeff0;
+  border-radius: 30px;
+  padding: 10px;
+  color: grey;
+  font-weight: bold; }
+
 .location {
   float: left;
   margin-left: 25px;
@@ -70,8 +80,7 @@ body {
 .nav-bar {
   margin-top: -9px;
   position: relative;
-  height: 100px;
-  box-shadow: 0 7px 6px -6px grey; }
+  height: 100px; }
 
 .right-nav {
   float: right; }
@@ -80,19 +89,16 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
-  /*overflow: auto;*/ }
+  width: 75%; }
 
 .course-tile {
   width: 500px;
   height: 300px;
   position: relative;
   float: left;
-  margin: 25px;
-  box-shadow: 0 7px 6px -6px grey; }
+  margin: 25px; }
   .course-tile .tile-header {
     height: 50px;
-    border-radius: 5px 5px 0px 0px;
     margin-bottom: 0px; }
     .course-tile .tile-header::before {
       content: url("../img/book.png");
@@ -115,7 +121,6 @@ body {
   .course-tile .tile-body {
     background-color: white;
     height: 250px;
-    border-radius: 0px 0px 5px 5px;
     padding: 20px; }
     .course-tile .tile-body .course {
       color: grey;
@@ -131,15 +136,6 @@ body {
       margin-bottom: 30px; }
     .course-tile .tile-body .left-footer {
       float: left; }
-      .course-tile .tile-body .left-footer .button {
-        display: inline-block;
-        border-style: solid;
-        border-width: 2px;
-        border-color: #edeff0;
-        border-radius: 30px;
-        padding: 10px;
-        color: grey;
-        font-weight: bold; }
       .course-tile .tile-body .left-footer #topic1 {
         color: mediumspringgreen; }
       .course-tile .tile-body .left-footer #topic2 {
@@ -152,5 +148,14 @@ body {
         opacity: 0.3; }
       .course-tile .tile-body .right-footer .star {
         opacity: 0.25; }
+
+.nav-bar, .course-tile {
+  box-shadow: 0 7px 6px -6px grey; }
+
+.course-tile .tile-header {
+  border-radius: 5px 5px 0px 0px; }
+
+.course-tile .tile-body {
+  border-radius: 0px 0px 5px 5px; }
 
 /*# sourceMappingURL=application.css.map */
