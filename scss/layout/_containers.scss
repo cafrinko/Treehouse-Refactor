@@ -1,0 +1,105 @@
+.nav-bar {
+  margin-top: -9px;
+  position: relative;
+  height: 100px;
+  box-shadow: 0 7px 6px -6px grey;
+}
+
+.right-nav{
+  float: right;
+}
+
+.all-tiles {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  /*overflow: auto;*/
+}
+
+.course-tile {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  float: left;
+  margin: 25px;
+  box-shadow: 0 7px 6px -6px grey;
+  .tile-header {
+    height: 50px;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 0px;
+    &::before{
+      content: url("../img/book.png");
+      top: 12px;
+      left: 20px;
+      position: absolute;
+    }
+    .dot-list {
+      padding-left: 75px;
+      padding-top: 17px;
+      position: relative;
+      float: left;
+    }
+    .course-time {
+      float: right;
+      margin-right: 20px;
+      color: $dark-text;
+      position: relative;
+      font-size: 18px;
+      margin-top: 14.5px;
+      margin-bottom: 14.5px;
+    }
+  }
+  .tile-body {
+    background-color: $tile-body;
+    height: 250px;
+    border-radius: 0px 0px 5px 5px;
+    padding: 20px;
+    .course {
+      color: $light-text;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .course-title{
+      font-weight: bold;
+      font-size: 18px;
+      color: $dark-text;
+      margin: 0px;
+    }
+    .course-detail {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .left-footer {
+      float: left;
+      .button {
+        display: inline-block;
+        border-style: solid;
+        border-width: 2px;
+        border-color: $page-body;
+        border-radius: 30px;
+        padding: 10px;
+        color: $light-text;
+        font-weight: bold;
+      }
+      #topic1 {
+        color: $class1;
+      }
+      #topic2 {
+        color: $class2;
+      }
+      #topic3 {
+        color: $class3;
+      }
+    }
+    .right-footer {
+      float: right;
+      .play {
+        opacity: 0.3;
+      }
+      .star {
+        opacity: 0.25;
+      }
+    }
+  }
+}
